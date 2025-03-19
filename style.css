@@ -1,0 +1,58 @@
+/* Default background color */
+body {
+    background-color: rgb(228, 18, 18); /* Default color */
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: turquoise;
+    margin-bottom: 20px;
+}
+
+/* About me box styles */
+.about-me {
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+/* Table and technical skills section styles */
+.table {
+    justify-content: space-between;
+    background-color: lightseagreen;
+}
+
+/* Hobbies section styles */
+.hobbies-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;	
+    background-color: lightcoral;
+    margin-bottom: 20px;
+}
+
+/* Reflection section styles */
+.reflection {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+/* Custom image styles */
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 220px; /* Specify the maximum height */
+}
+
+/* Change background color to orange if screen width is greater than 460px */
+@media (max-width: 460px) {
+    body {
+        background-color: white;
+    }
+}
